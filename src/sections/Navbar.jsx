@@ -1,10 +1,11 @@
 import { navLinks } from "../constants";
+import Button from "../components/Button";
 
 const Navbar = () => {
   return (
     <header className="fixed top-0 right-0 left-0 w-full">
       <div className="flex justify-between items-center py-6 px-12">
-        <div className="w-full text-3xl font-bold font-open-sans text-[#00df9a]">
+        <div className="w-full text-3xl font-bold font-open-sans text-primary">
           REACT.
         </div>
 
@@ -14,7 +15,7 @@ const Navbar = () => {
             {navLinks.map((navLink, index) => (
               <li key={index}>
                 <a
-                  className="font-normal font-montserrat text-lg hover:text-[#00df9a] transition-all duration-300"
+                  className="font-normal font-montserrat text-lg hover:text-primary transition-all duration-300"
                   href={navLink.href}
                 >
                   {navLink.link}
@@ -25,7 +26,10 @@ const Navbar = () => {
         </nav>
 
         {/* buttons */}
-        <div className="flex justify-start items-center gap-6"></div>
+        <div className="flex justify-center items-center space-x-5 w-full">
+          <Button label="Login" />
+          <Button label="Sign Up" backgroundColor="bg-primary" />
+        </div>
       </div>
     </header>
   );
