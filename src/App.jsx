@@ -1,7 +1,13 @@
-import { Navbar } from "./sections";
+import { Navbar, Hero, Analytics } from "./sections";
 
 const App = () => {
-  return <Navbar />;
+  return (
+    <main className="font-inter text-base">
+      <Navbar />
+      <Hero />
+      <Analytics />
+    </main>
+  );
 };
 
 export default App;
