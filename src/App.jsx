@@ -1,4 +1,4 @@
-import { Navbar, Hero, Analytics } from "./sections";
+import { Navbar, Hero, Analytics, NewsLetter } from "./sections";
 
 const App = () => {
   return (
@@ -6,6 +6,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Analytics />
+      <NewsLetter />
     </main>
   );
 };

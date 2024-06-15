@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`w-full py-5 px-12 ${
+      className={`w-full py-5 px-12 bg-black ${
         isFixed
           ? "sticky top-0 left-0 right-0 border-b border-gray-700 shadow-lg"
           : "relative"
@@ -51,11 +51,11 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className="hidden md:flex justify-end items-center gap-6">
+        <div className="hidden md:flex justify-end items-center gap-2">
           <Button label="Login" />
           <Button
             label="Sign Up"
-            backgroundColor="bg-white font-semibold"
+            backgroundColor="bg-white"
             textColor="text-stone-900"
           />
         </div>
@@ -69,11 +69,12 @@ const Navbar = () => {
         </div>
       </nav>
 
+      {/* Mobile Men */}
       <nav
         className={`md:hidden bg-black py-5 px-10 w-[300px] h-full border-r border-r-gray-950 min-h-screen ${
           isMenuOpen
-            ? `fixed top-20 left-0 ease-in-out duration-500`
-            : "fixed -left-[100%] top-20"
+            ? `fixed top-16 left-0 ease-in-out duration-500`
+            : "fixed -left-[100%] top-16"
         }`}
       >
         <ul className="space-y-6 flex flex-col justify-start">
@@ -93,7 +94,7 @@ const Navbar = () => {
           <Button label="Login" />
           <Button
             label="Sign Up"
-            backgroundColor="bg-white font-semibold"
+            backgroundColor="bg-white"
             textColor="text-stone-900"
           />
         </div>

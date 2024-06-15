@@ -1,10 +1,20 @@
-const Button = ({ label, backgroundColor, textColor, borderColor }) => {
+const Button = ({
+  label,
+  backgroundColor,
+  textColor,
+  borderColor,
+  fullWidth,
+}) => {
   return (
     <button
-      className={`text-md font-open-sans tracking-wide font-normal px-6 py-2 rounded-full ${
+      className={`text-md font-open-sans tracking-wide font-normal px-6 py-3 rounded-full ${
+        fullWidth && "w-full"
+      } ${
         backgroundColor
-          ? `${backgroundColor} ${textColor} border-none hover:text-primary transition-all duration-300`
-          : "bg-transparent border border-primary hover:text-primary hover:border-white transition-all duration-300"
+          ? `${backgroundColor} ${textColor} ${
+              borderColor ? `border ${borderColor}` : ""
+            } hover:shadow-lg transition-all duration-300`
+          : "bg-transparent text-white hover:text-primary transition-all duration-300"
       }`}
     >
       {label}
