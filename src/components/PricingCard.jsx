@@ -4,7 +4,7 @@ import { FaCircleCheck } from "react-icons/fa6";
 const PricingCard = (props) => {
   const Icon = props.icon;
   return (
-    <div className="flex flex-col justify-between  bg-white border border-slate-200 rounded-xl p-5 hover:shadow-lg">
+    <div className="flex flex-col justify-between  bg-white border border-slate-200 rounded-xl p-5 shadow-lg">
       <div className="w-[300px] flex flex-col items-center">
         <div className="w-14 h-14 flex items-center justify-center rounded-full border border-gray-200">
           <Icon className="w-10 h-10 text-black" />
