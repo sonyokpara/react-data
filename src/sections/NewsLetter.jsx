@@ -14,7 +14,7 @@ const NewsLetter = () => {
         </div>
 
         <div className="w-full lg:max-w-[40%]">
-          <div className="flex max-sm:flex-col items-center gap-5 sm:border sm:border-slate-300 rounded-full p-2.5">
+          <div className="flex max-sm:flex-col items-center gap-5 sm:border sm:border-slate-300 rounded-full p-2">
             <input
               type="text"
               placeholder="subscribe@example.com"

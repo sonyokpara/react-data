@@ -10,7 +10,7 @@ const PricingCard = (props) => {
       } border border-slate-200 rounded-xl p-5 shadow-md`}
     >
       <div className="w-[300px] flex flex-col items-center">
-        <div className="w-14 h-14 flex items-center justify-center rounded-full border border-gray-200">
+        <div className="w-14 h-14 flex items-center justify-center bg-white rounded-full border border-gray-200">
           <Icon className="w-10 h-10 text-black" />
         </div>
         <h2 className="text-lg my-2 md:text-2xl font-montserrat font-semibold text-black">
