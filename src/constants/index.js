@@ -16,7 +16,7 @@ export const navLinks = [
   { link: "Company", href: "#company" },
   { link: "About", href: "#about" },
   { link: "Resources", href: "#resources" },
-  { link: "Contact", href: "#contact" },
+  { link: "Contact", href: "#newsletter" },
 ];
 
 export const packages = [
@@ -50,4 +50,32 @@ export const SocialMediaLinks = [
   FaPinterest,
   FaInstagram,
   FaGithub,
+];
+
+export const footerLinks = [
+  {
+    title: "Solutions",
+    links: [
+      { name: "Analytical", link: "/" },
+      { name: "Marketing", link: "/" },
+      { name: "Commerce", link: "/" },
+      { name: "Insights", link: "/" },
+    ],
+  },
+  {
+    title: "Support",
+    links: [
+      { name: "Pricing", link: "/" },
+      { name: "Documentation", link: "/" },
+      { name: "Guides", link: "/" },
+      { name: "Contact Us", link: "/" },
+    ],
+  },
+  {
+    title: "Get in touch",
+    links: [
+      { name: "customer@react.com", link: "mailto:customer@react.com" },
+      { name: "+92554862354", link: "tel:+92554862354" },
+    ],
+  },
 ];

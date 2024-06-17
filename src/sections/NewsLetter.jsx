@@ -2,7 +2,7 @@ import Button from "../components/Button";
 
 const NewsLetter = () => {
   return (
-    <section className="max-md:text-center">
+    <section id="newsletter" className="max-md:text-center">
       <div className="bg-black px-24 py-16 flex justify-between items-center max-lg:flex-col">
         <div className="w-full md:w-2/3 flex flex-col">
           <h3 className="font-montserrat font-bold text-2xl max-md:text-center md:text-3xl">
