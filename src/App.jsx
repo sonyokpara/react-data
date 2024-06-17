@@ -1,4 +1,11 @@
-import { Navbar, Hero, Analytics, NewsLetter, Pricing } from "./sections";
+import {
+  Navbar,
+  Hero,
+  Analytics,
+  NewsLetter,
+  Pricing,
+  Footer,
+} from "./sections";
 
 const App = () => {
   return (
@@ -8,6 +15,7 @@ const App = () => {
       <Analytics />
       <NewsLetter />
       <Pricing />
+      <Footer />
     </main>
   );
 };

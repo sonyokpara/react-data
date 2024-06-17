@@ -1,4 +1,14 @@
-import { FaCompass, FaUnity, FaBuffer } from "react-icons/fa6";
+import {
+  FaCompass,
+  FaUnity,
+  FaBuffer,
+  FaFacebook,
+  FaTwitter,
+  FaYoutube,
+  FaPinterest,
+  FaInstagram,
+  FaGithub,
+} from "react-icons/fa6";
 
 // nav links
 export const navLinks = [
@@ -31,4 +41,13 @@ export const packages = [
     features: ["5TB Storage", "10 Users Allowed", "Send up to 20GB"],
     selected: false,
   },
+];
+
+export const SocialMediaLinks = [
+  FaFacebook,
+  FaTwitter,
+  FaYoutube,
+  FaPinterest,
+  FaInstagram,
+  FaGithub,
 ];
